@@ -1,7 +1,12 @@
 
+import { Header } from './Header'
 import './global.css'
 
 export function App() {
-  return <></>
+  return (
+    <div>
+      <Header/>
+    </div>
+  )
 }
 
