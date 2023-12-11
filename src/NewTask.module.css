@@ -1,0 +1,34 @@
+.newTask{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem; 
+    margin-top: calc(0px - 1.6875rem)
+}
+
+.newTask input{
+    padding: 1rem 1rem;
+    border-radius: 8px;
+    border: 1px solid  var(--gray-700);
+    width: 39.875rem;
+    height: 3.375rem;
+    background: var(--gray-500);
+    color: var(--gray-300);
+    font-weight: regular;
+
+}
+
+.newTask button{
+    padding: 1rem 1rem;
+    border-radius: 8px;
+    border: 0;
+    background: var(--blueDark);
+    color: var(--gray-100);
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.1s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
